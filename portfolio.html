@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -26,7 +29,7 @@
                         <a class="header-link" href="./index.html"> Студия</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link" href="./portfolio.html"> Портфолио</a>
+                        <a class="header-link current" href="./portfolio.html"> Портфолио</a>
                     </li>
                     <li class="header-item">
                         <a class="header-link" href="#contact"> Контакты</a>
@@ -48,7 +51,7 @@
 
         <!-- Navigation -->
         <section class="navigation">
-            <div class="container">
+            <div class="container menu-container">
                 <h1 class="visually-hidden">Навигация по сайту</h1>
                 <ul class="navigation-list">
                     <li class="navigation-item"><button class="navigation-button" type="button">Все</button></li>
@@ -61,8 +64,8 @@
         </section>
 
         <!-- Items -->
-        <section class="offers">
-            <div class="container">
+        <section class="offers-section">
+            <div class="container offers-container">
                 <ul class="offers-list">
                     <li class="offers-item">
                         <a class="offers-link" href="">
@@ -121,25 +124,28 @@
                     <li class="offers-item">
                         <a class="offers-link" href="">
                             <img src="./images/img7-min.jpg" alt="Издание Limited Edition" width="370">
-                            <div class="offers-item-bottom"></div>
-                            <h2 class="offers-title">Издание Limited Edition</h2>
-                            <p class="offers-text">Дизайн</p>
+                            <div class="offers-item-bottom">
+                                <h2 class="offers-title">Издание Limited Edition</h2>
+                                <p class="offers-text">Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     <li class="offers-item">
                         <a class="offers-link" href="">
                             <img src="./images/img8-min.jpg" alt="Проект LAB" width="370">
-                            <div class="offers-item-bottom"></div>
-                            <h2 class="offers-title">Проект LAB</h2>
-                            <p class="offers-text">Маркетинг</p>
+                            <div class="offers-item-bottom">
+                                <h2 class="offers-title">Проект LAB</h2>
+                                <p class="offers-text">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     <li class="offers-item">
                         <a class="offers-link" href="">
                             <img src="./images/img9-min.jpg" alt="Growing Business" width="370">
-                            <div class="offers-item-bottom"></div>
-                            <h2 class="offers-title">Growing Business</h2>
-                            <p class="offers-text">Приложение</p>
+                            <div class="offers-item-bottom">
+                                <h2 class="offers-title">Growing Business</h2>
+                                <p class="offers-text">Приложение</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
